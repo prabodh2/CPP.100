@@ -5,8 +5,17 @@ using namespace std;
 
 int main() {
     // Define two strings
-    char str1[] = " Hello ";
-    char str2[] = "Prabodh";
+    int n,m;
+    cout<< "Enter size of str1: ";
+    cin>>n;
+    cout<<"Enter size of str2: ";
+    cin>>m;
+    char str1[n];
+    char str2[m] ;
+    cout << "Enter a char str1 : "<< endl;
+    cin >> str1;
+    cout << "Enter a char str2 : "<< endl;
+    cin >> str2;
                                                                                                 
     // Calculate the lengths of the strings
     int len1 = strlen(str1);

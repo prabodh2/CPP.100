@@ -4,7 +4,15 @@ using namespace std;
 
 int main() {
     // Create an array of strings
-    string strings[] = {"Bombay", "Adoni", "Delhi", "Chennai", "Kharghar"};
+    int size;
+    cout<<"Enter size of array: ";
+    cin>>size;
+    string strings[size];
+    for (int i=0;i<size;i++)
+    {
+        cout<<"Enter "<<i+1<<" element: ";
+        cin>>strings[i];
+    }
                                                                                                     
     // Calculate the number of strings in the array
     int numStrings = sizeof(strings) / sizeof(strings[0]);

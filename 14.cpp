@@ -1,9 +1,6 @@
 //Implement a program that checks if a string is a palindrome.
 
 #include <iostream>
-#include <string>
-
-
 using namespace std;
 
 

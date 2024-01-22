@@ -12,13 +12,11 @@ int main() {
     int n;
     cout << "Enter a value of n : ";
     cin >> n;
-                                                                                                    
     // Calculate the sum of elements in the main diagonal
     for (int i = 0; i < n; i++) {
         sum += arr[i][i];
     }                  
     // Output the sum
-    cout << "Sum of elements in the main diagonal: " << sum << endl;
-                                                                                                    
+    cout << "Sum of elements in the main diagonal: " << sum << endl;                                                                            
     return 0;
 }

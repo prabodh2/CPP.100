@@ -8,5 +8,4 @@ int main()
     reverse(input.begin(), input.end());
     cout<<" Reversed String : " << input << endl;
     return 0;
-
 }

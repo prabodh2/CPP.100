@@ -6,13 +6,11 @@ int main() {
   // Declare variables
   float temperature, converted_temperature;
   char conversion_direction;
-
   // Prompt the user to enter the temperature and conversion direction
   cout << "Enter the temperature to convert: ";
   cin >> temperature;
   cout << "Enter the conversion direction (C to F or F to C): ";
   cin >> conversion_direction;
-
   // Convert the temperature based on the conversion direction|
   //(temperature - 32.0) * 5.0 / 9.0;
   if (conversion_direction == 'C') {
@@ -23,7 +21,6 @@ int main() {
     cout << "Invalid conversion direction." << endl;
     return 0;
   }
-
   // Print the converted temperature
   cout << "The converted temperature is: " << converted_temperature << endl;
 

@@ -12,10 +12,8 @@ int main() {
         cout << "2. Deposit Money" << endl;
         cout << "3. Withdraw Money" << endl;
         cout << "4. Exit" << endl;
-
         cout << "Enter your choice: ";
         cin >> choice;
-
         switch(choice) {
             case 1:
                 cout << "Your balance is: $" << balance << endl;
@@ -45,6 +43,5 @@ int main() {
 
         cout << "\n-------------------------------------\n";
     }
-
     return 0;
 }

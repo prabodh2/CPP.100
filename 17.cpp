@@ -12,10 +12,8 @@ int main() {
     int num;
     cout << "Enter a number: ";
     cin >> num;
-
     int squareResult = square(num);
     int cubeResult = cube(num);
-
     cout << "Square of " << num << " is: " << squareResult << endl;
     cout << "Cube of " << num << " is: " << cubeResult << endl;
     return 0;

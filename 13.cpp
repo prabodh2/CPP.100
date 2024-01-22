@@ -9,10 +9,8 @@ int main()
         cout<<" Choose (R)ock , (S)cissor , (P)aper : " <<endl;
         char userchoice;
         cin>>userchoice;
-
         //convert user's choice to uppercase
         userchoice = toupper(userchoice);
-
         //computer's choice
         char computerchoice;
         switch (std::rand() % 3) 

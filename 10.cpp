@@ -6,10 +6,8 @@ int main() {
     // Prompt the user to enter the base and height
     std::cout << "Enter the base of the triangle: ";
     std::cin >> base;
-
     std::cout << "Enter the height of the triangle: ";
     std::cin >> height;
-
     // Check if both base and height are positive
     if (base <= 0 || height <= 0) {
         std::cout << "Both base and height should be positive values." << std::endl;

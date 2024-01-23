@@ -13,12 +13,9 @@ int main() {
         std::cout << "Both base and height should be positive values." << std::endl;
         return 1; // Exit the program with an error code
     }
-
     // Calculate the area of the triangle
     double area = (0.5) * base * height;
-
     // Display the result
     std::cout << "The area of the triangle is: " << area << std::endl;
-
     return 0;
 }

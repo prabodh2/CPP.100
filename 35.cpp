@@ -1,5 +1,4 @@
 #include <iostream>
-
 int main() {
     int choice;
     double num1, num2, result;

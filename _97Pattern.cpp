@@ -17,18 +17,14 @@ int main() {
         for (int j = 1; j <= num - i; j++) {
             cout << " ";
         }
-
         for (int k = i; k <= 2 * i - 1; k++) {
             cout << k;
         }
-
         for (int l = 2 * i - 2; l >= i; l--) {
             cout << l;
         }
-
         cout << endl;
     }
-
     for (int i = num - 1; i >= 1; i--) {
 
         for (int j = 1; j <= num - i; j++) {

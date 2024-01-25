@@ -3,7 +3,6 @@
 int main() {
     double base, height;
 
-    // Prompt the user to enter the base and height
     std::cout << "Enter the base of the triangle: ";
     std::cin >> base;
     std::cout << "Enter the height of the triangle: ";

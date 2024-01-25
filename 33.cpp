@@ -12,7 +12,6 @@ int main() {
             gcd = i;
         }
     }
-
     std::cout << "The GCD of " << num1 << " and " << num2 << " is: " << gcd << std::endl;
     return 0;
 }

@@ -20,10 +20,7 @@ int main() {
 
     cout << "Enter the value of n: ";
     cin >> n;
-
     double sum = calculateSeriesSum(n);
-
     cout << "Sum of the series is: " << sum << endl;
-
     return 0;
 }

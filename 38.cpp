@@ -7,9 +7,7 @@ int main() {
     // Input the number
     cout << "Enter a number: ";
     cin >> num;
-
     originalNum = num;
-
     // Reverse the number using nested loops
     while (num > 0) {
         remainder = num % 10;

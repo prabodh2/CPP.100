@@ -5,7 +5,6 @@ int main() {
     std::cout << "Enter a number: ";
     std::cin >> number;
     int originalNumber = number;  // Store the original number for displaying later
-
     // Calculate the sum of digits using a do-while loop
     do {
         digit = number % 10;  // Extract the last digit

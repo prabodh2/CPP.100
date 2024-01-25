@@ -19,7 +19,4 @@ int main()
     cout<<"The sum of the digits of" <<num <<"is:" <<sum <<endl;
     }
     return 0;
-
-
-
 }

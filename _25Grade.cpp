@@ -6,8 +6,7 @@ int main()
     char choice;
     float marks;
     do
-    {
-        
+    {   
         cout<< "Enter marks for Student: ";
         cin >> marks;
         cout << "****************************\n\n";

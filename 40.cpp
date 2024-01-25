@@ -22,7 +22,6 @@ int main()
         {
             factorial *= i;
         }
-
         // Display the result
         cout << "Factorial of " << num << " is: " << factorial << endl;
     }

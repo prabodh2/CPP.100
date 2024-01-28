@@ -3,7 +3,6 @@ using namespace std;
 
 int main() {
     int year;
-
     // Input year from the user
     std::cout << "Enter a year: ";
     std::cin >> year;
@@ -13,6 +12,5 @@ int main() {
     } else {
         std::cout << year << " is not a leap year." << std::endl;
     }
-
     return 0;
 }

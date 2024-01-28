@@ -5,7 +5,6 @@ int main() {
     float balance = 1000.00;
     int choice;
     float amount;
-
     while(true) {
         cout << "Welcome to the ATM Machine" << endl;
         cout << "1. Check Balance" << endl;

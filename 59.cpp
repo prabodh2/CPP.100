@@ -9,9 +9,7 @@ int main() {
         std::cout << "The array should contain at least two elements." << std::endl;
         return 1; // Exit the program with an error code
     }
-
     int arr[n];
-    
     std::cout << "Enter the elements of the array:" << std::endl;
     for (int i = 0; i < n; ++i) {
         std::cin >> arr[i];

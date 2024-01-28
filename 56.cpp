@@ -27,6 +27,5 @@ int main() {
     } else {
         std::cout << "The array is not sorted in ascending order." << std::endl;
     }
-
     return 0;
 }

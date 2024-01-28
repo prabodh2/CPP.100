@@ -47,10 +47,8 @@ int main()
         //Ask if the user wants to play again
         cout<<" Do You Want To Play Again ? (Y/N): " <<endl;
         cin>>playagain;
-
     }
     while (playagain == 'Y' || playagain == 'Y');
     cout<<" Thanks for playing . Goodbye!" <<endl;
     return 0;
-
 }

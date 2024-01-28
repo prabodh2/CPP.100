@@ -10,9 +10,7 @@ int main() {
         std::cout << "Invalid array size." << std::endl;
         return 1;
     }
-    
     int arr[size];
-    
     std::cout << "Enter the elements of the array:" << std::endl;
     for (int i = 0; i < size; ++i) {
         std::cin >> arr[i];

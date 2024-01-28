@@ -18,9 +18,7 @@ int main() {
     for (int i = 2; i <= N; i += 2) {
         sum += i;
     }
-
     // Display the result
     std::cout << "The sum of all even numbers between 1 and " << N << " is: " << sum << std::endl;
-
     return 0;
 }

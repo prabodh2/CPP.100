@@ -8,7 +8,6 @@ int factorial(int n) {
     else
         return n * factorial(n - 1);
 }
-
 int main() {
     int N;
 
@@ -23,7 +22,6 @@ int main() {
         int fact_i = factorial(i);
         sum += static_cast<double>(i) / fact_i;
     }
-
     // Displaying the result
     cout << "Sum of the series is: " << sum << endl;
 

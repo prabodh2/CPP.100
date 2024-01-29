@@ -4,7 +4,6 @@ using namespace std;
 
 // Maximum maze size
 const int MAX_N = 100;
-
 int maze[MAX_N][MAX_N];
 bool visited[MAX_N][MAX_N];
 int dist[MAX_N][MAX_N];

@@ -7,7 +7,6 @@ int power(int base, int exponent) {
     else
         return base * power(base, exponent - 1);
 }
-
 int main() {
     int base, exponent;
 

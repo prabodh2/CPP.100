@@ -6,7 +6,6 @@ int main() {
 
     cout << "Enter the number of terms: ";
     cin >> n;
-
     cout << "Fibonacci Series: ";
 
     for (int i = 1; i <= n; ++i) {

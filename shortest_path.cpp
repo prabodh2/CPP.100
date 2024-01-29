@@ -8,7 +8,6 @@ const int MAX_N = 100;
 int maze[MAX_N][MAX_N];
 bool visited[MAX_N][MAX_N];
 int dist[MAX_N][MAX_N];
-
 // Possible moves: right, left, down, up
 int dx[] = {1, -1, 0, 0};
 int dy[] = {0, 0, 1, -1};

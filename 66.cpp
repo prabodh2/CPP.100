@@ -2,10 +2,8 @@
 using namespace std;
 
 const int MAX = 100;
-
 int main() {
     int matrix[MAX][MAX], rows, cols;
-
     // Input the number of rows and columns
     cout << "Enter the number of rows: ";
     cin >> rows;

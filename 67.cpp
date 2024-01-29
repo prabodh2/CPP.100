@@ -11,7 +11,6 @@ int main() {
     // Get dimensions for the second matrix
     cout << "Enter the number of rows and columns for the second matrix: ";
     cin >> rows2 >> cols2;
-
     // Check if dimensions are compatible for addition
     if (rows1 != rows2 || cols1 != cols2) {
         cout << "Matrices cannot be added. Dimensions are not compatible." << endl;

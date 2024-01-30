@@ -6,7 +6,6 @@ using namespace std;
 
 // initailizing max length of the queen board
 const int MAX_N = 10;
-
 // function to display solution
 void printSolution(int board[MAX_N][MAX_N], int N) {
     int solutionArr[N];
@@ -24,7 +23,6 @@ void printSolution(int board[MAX_N][MAX_N], int N) {
         cout << endl;
     }
     cout << endl;
-
     cout << "The array of solutions is: [ ";
     for (int i = 0; i < N; i++) {
         if (i < N-1) {
@@ -89,10 +87,8 @@ int main() {
         cout << "Invalid input! Please enter a value between 1 and " << MAX_N << ".\n";
         return 1;
     }
-
     // initailizing the baord
     int board[MAX_N][MAX_N] = {0};
-
     // soliving for N queens, displaying the board and displaying the number of solutions
     if (solveNQueens(board, 0, N)) {
         cout << "Solution for N-Queens with N = " << N << ":" << endl << endl;
@@ -100,6 +96,5 @@ int main() {
     } else {
         cout << "No solution found for N = " << N << "." << endl;
     }
-
     return 0;
 }

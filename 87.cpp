@@ -6,7 +6,6 @@ int main() {
 
     cout << "Enter the number of rows: ";
     cin >> n;
-
     // Print the top part of the pattern
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j <= i; j++) {
@@ -14,7 +13,6 @@ int main() {
         }
         cout << endl;
     }
-
     // Print the bottom part of the pattern
     for (int i = n - 1; i >= 1; i--) {
         for (int j = 1; j <= i; j++) {

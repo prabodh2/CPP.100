@@ -3,10 +3,8 @@ using namespace std;
 
 int main() {
     int n;
-
     cout << "Enter the number of rows: ";
     cin >> n;
-
     for (int i = 1; i <= n; i++) {
         // Print decreasing numbers from i to 1
         for (int j = i; j >= 1; j--) {

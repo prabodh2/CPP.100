@@ -18,20 +18,16 @@ int main()
         else
         {
             cout << num << " is a prime number" << endl;
-
         }
     }
     }
     else if (num == 0 || num == 1)
     {
         cout << num << " is neither prime nor composite number" << endl;
-    
     }
     else
     {
         cout <<"INVALID" << endl;
-
     }
-
     return 0;
 }

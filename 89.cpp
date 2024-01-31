@@ -10,12 +10,10 @@ int main() {
         for (int j = i; j >= 1; j--) {
             cout << j;
         }
-
         // Print increasing numbers from 2 to i
         for (int j = 2; j <= i; j++) {
             cout << j;
         }
-
         cout << endl;
     }
     return 0;

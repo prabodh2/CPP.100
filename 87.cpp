@@ -3,7 +3,6 @@ using namespace std;
 
 int main() {
     int n;
-
     cout << "Enter the number of rows: ";
     cin >> n;
     // Print the top part of the pattern

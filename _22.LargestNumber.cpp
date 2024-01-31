@@ -12,17 +12,10 @@ int main()
     cin >> num3;
     if (num1 >= num2)
     {
-
-        /*
-        num1 is greater than equal to num2
-        if num1 is greater than equal to num3
-        num1 is the largest 
-        */
         if (num1 >= num3)
         {
             cout << num1 << " is the largest " << endl;
         }
-
         /*
         num1 is greater than or equal to num2
         but num1 is not greater than or equal to num3
@@ -32,7 +25,6 @@ int main()
         {
             cout << num3 << " is the largest " << endl;
         }
-
     /*
     else num 2 is greater than num1
     if num2 is greater than equal to num3 ----> num2 is the largest
@@ -45,7 +37,6 @@ int main()
         {
             cout << num2 << " is the largest " << endl;
         }
-
         /*
         else num2 is greater than num1
         but num2 is not greater than or equal to num3----> num3 is the largest 
@@ -56,7 +47,5 @@ int main()
 
         }
     }
-
     return 0;
-
 }

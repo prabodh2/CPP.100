@@ -28,6 +28,5 @@ int main() {
         }
         cout << "The largest element in row " << (i + 1) << " is: " << maxElement << endl;
     }
-
     return 0;
 }

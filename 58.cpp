@@ -15,7 +15,6 @@ int main() {
     for (int i = 0; i < size; ++i) {
         std::cin >> arr[i];
     }
-
     // Remove duplicates
     for (int i = 0; i < size; ++i) {
         for (int j = i + 1; j < size;) {
@@ -30,7 +29,6 @@ int main() {
             }
         }
     }
-
     std::cout << "Array with duplicates removed:" << std::endl;
     for (int i = 0; i < size; ++i) {
         std::cout << arr[i] << " ";

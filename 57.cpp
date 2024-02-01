@@ -5,14 +5,11 @@ int main() {
     
     std::cout << "Enter the size of the array: ";
     std::cin >> size;
-    
     if (size <= 0) {
         std::cout << "Invalid array size." << std::endl;
         return 1;
-    }
-    
-    int arr[size];
-    
+    }   
+    int arr[size];    
     std::cout << "Enter the elements of the array:" << std::endl;
     for (int i = 0; i < size; ++i) {
         std::cin >> arr[i];

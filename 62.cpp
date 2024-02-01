@@ -44,22 +44,17 @@ int main()
     for(int i = 0; i < size1; i++){
         cin >> arr[i];
     }
-
     int size = sizeof(arr) / sizeof(arr[0]);
-
     cout << "Original Array: ";
     for (int i = 0; i < size; i++) {
         cout << arr[i] << " ";
     }
     cout << endl;
-
     segregateEvenOdd(arr, size);
-
     cout << "Array after segregating even and odd numbers: ";
     for (int i = 0; i < size; i++) {
         cout << arr[i] << " ";
     }
     cout << endl;
-
     return 0;
 }

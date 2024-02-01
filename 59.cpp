@@ -14,14 +14,11 @@ int main() {
     for (int i = 0; i < n; ++i) {
         std::cin >> arr[i];
     }
-
     int firstLargest = arr[0];
     int secondLargest = arr[1];
-
     if (secondLargest > firstLargest) {
         std::swap(firstLargest, secondLargest);
     }
-
     for (int i = 2; i < n; ++i) {
         if (arr[i] > firstLargest) {
             secondLargest = firstLargest;
@@ -30,8 +27,6 @@ int main() {
             secondLargest = arr[i];
         }
     }
-
     std::cout << "The second largest element in the array is: " << secondLargest << std::endl;
-
     return 0;
 }

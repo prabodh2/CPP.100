@@ -15,13 +15,11 @@ void segregateEvenOdd(int arr[], int size)
         {
             left++;
         }
-
         // Move right index to the left while arr[right] is odd
         while (arr[right] % 2 != 0 && left < right) 
         {
             right--;
         }
-
         if (left < right) 
         {
             // Swap arr[left] and arr[right]
@@ -37,7 +35,6 @@ void segregateEvenOdd(int arr[], int size)
 int main() 
 {
     int size1;
-
     cout << "Enter a size of array : ";
     cin >> size1;
 

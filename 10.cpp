@@ -2,8 +2,8 @@
 
 int main() {
     double base, height;
-    std::cout << "Enter the base of the triangle: ";
-    std::cin >> base;
+    cout << "Enter the base of the triangle: ";
+    cin >> base;
     std::cout << "Enter the height of the triangle: ";
     std::cin >> height;
     // Check if both base and height are positive

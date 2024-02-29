@@ -8,7 +8,7 @@ int main() {
     cin >> height;
     // Check if both base and height are positive
     if (base <= 0 || height <= 0) {
-        std::cout << "Both base and height should be positive values." << std::endl;
+        cout << "Both base and height should be positive values." << std::endl;
         return 1; // Exit the program with an error code
     }
     // Calculate the area of the triangle

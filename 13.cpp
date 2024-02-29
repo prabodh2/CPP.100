@@ -5,7 +5,6 @@ int main()
     char playagain;
     do
     {
-        //user's choice
         cout<<" Choose (R)ock , (S)cissor , (P)aper : " <<endl;
         char userchoice;
         cin>>userchoice;

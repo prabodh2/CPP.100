@@ -9,7 +9,6 @@ int main() {
   cin >> temperature;
   cout << "Enter the conversion direction (C to F or F to C): ";
   cin >> conversion_direction;
-  // Convert the temperature based on the conversion direction|
   //(temperature - 32.0) * 5.0 / 9.0;
   if (conversion_direction == 'C') {
     converted_temperature = (temperature * 9.0) / 5.0 + 32.0;

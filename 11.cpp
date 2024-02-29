@@ -5,7 +5,6 @@ int main() {
   // Declare variables
   float temperature, converted_temperature;
   char conversion_direction;
-  // Prompt the user to enter the temperature and conversion direction
   cout << "Enter the temperature to convert: ";
   cin >> temperature;
   cout << "Enter the conversion direction (C to F or F to C): ";
